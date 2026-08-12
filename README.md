@@ -1,6 +1,6 @@
-# Quadcopter Design Project V3.0
+# Custom Quadcopter — Flight Controller, Transmitter & PID Firmware Built from Scratch
 
-This is the third iteration of the flight-controller firmware I developed for a custom Arduino-based quadcopter. The repository contains two separate Arduino sketches: one that runs on the on-board flight controller and one that runs on a ground-station transmitter built around a PS3 controller and an nRF24L01+ radio.
+A complete quadcopter designed and built from bare components — F450 airframe, brushless powertrain, Arduino-based flight controller, and a hand-built ground-station transmitter around a PS3 controller and an nRF24L01+ radio. All firmware on both ends was written from scratch in C/C++: interrupt-driven motor control, MPU-6050 sensor fusion, and discrete PID attitude stabilization — no flight-stack libraries. The repository contains the two Arduino sketches: one for the on-board flight controller and one for the ground-station transmitter.
 
 ![F450 quadcopter build](Images/Lastest_HW_image.jpg)
 
